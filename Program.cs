@@ -22,6 +22,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthorization();
 
+// Serve static files (React app)
+app.UseStaticFiles();
+
 app.MapControllers();
 
 app.Run();
