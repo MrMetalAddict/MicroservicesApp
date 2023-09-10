@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "0Zpu5VWRdhdri6xIfsh5r2Vq17hLhv6H1+YwA8KuGK78q0OLD2rIMv+5EB2+rrrf3oLeZ443YBhPLFqBGvgY1g==",
+  "success": true,
+  "projectFilePath": "/Users/vipulnegi/Dot_MS/MicroservicesApp/MicroservicesApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/vipulnegi/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
+    "/Users/vipulnegi/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/vipulnegi/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/vipulnegi/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/vipulnegi/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/vipulnegi/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/vipulnegi/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
