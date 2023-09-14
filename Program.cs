@@ -8,10 +8,20 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Configure CORS policys
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:3000")
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
 var app = builder.Build();
-
+app.UseCors("AllowAll"); // Enable CORS policy
 // Configure ASP.NET Core to serve static files (React app)
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
